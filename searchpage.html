@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+<!--   Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="innerNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo">Logo</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">        
+          <i class="fa fa-bars mbar"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto secondarymenu">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link login" href="login.html"><i class="fa fa-user" aria-hidden="true"></i>
+ Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Container -->
+    <header class="" id="headbg">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+                   
+             <div class="col-lg-12 col-md-12 col-sm-12 col-12 inner_searchblock">
+            <form method="post" action="" class="form-inline" id="head_searchform">
+               <div id="ts"></div>           
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 stages">
+                    <select name="state" id="state"  class="form-control">
+                       <option class="bs-title-option" value="">State</option>
+                        <option value="Andhrapradesh">Andhrapradesh</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kerala">Kerala</option>
+                    </select>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 stages">
+                    <select name="district" id="district"  class="form-control">
+                       <option class="bs-title-option" value="">District</option>
+                        <option value="Andhrapradesh">Andhrapradesh</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kerala">Kerala</option>
+                    </select>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 stages">
+                    <select name="city" id="city"  class="form-control">
+                       <option class="bs-title-option" value="">City</option>
+                        <option value="Andhrapradesh">Andhrapradesh</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Karnataka">Telangana</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kerala">Kerala</option>
+                    </select>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 stages">
+                    <select name="place" id="place"  class="form-control">
+                       <option class="bs-title-option" value="">Area</option>
+                        <option value="Andhrapradesh">Andhrapradesh</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kerala">Kerala</option>
+                    </select>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <button class="btn btn-primary sbtn" type="submit">
+                    Search
+                </button>
+                </div>            
+            </form>
+           
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12- col-sm-12 col-md-12 breadcrumbs">
+                <span>Home / Search</span>
+            </div>     
+        </div>
+        <div class="row">
+                <!-- <div class="filters"> -->
+                <div class="col-12 col-md-12 col-lg-12 filters">
+                    <div class="row">                    
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <span class="sreshead">
+                                Search Results
+                            </span>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                                <span class="filter float-md-right">
+                                        <form method="post" name="filt" class="form-inline filt">
+                                            <label>Type: </label>
+                                            <select name="type" id="">
+                                                <option value=""> Select Hall Type</option>
+                                                <option value="ac"> Ac</option>
+                                                <option value="nonac"> Non/Ac</option>
+                                            </select>
+                                            <label class="lsize">Size: </label>
+                                            <select name="type" id="">
+                                                <option value=""> Select Size</option>
+                                                <option value="50"> 50</option>
+                                                <option value="100"> 100</option>
+                                                <option value="200"> 200</option>
+                                                <option value="300"> 300</option>
+                                                <option value="500"> 500</option>
+                                                <option value="1000"> 1000</option>
+                                                <option value="2000"> 2000</option>
+                                            </select>
+                                        </form>
+                                    </span>
+
+                        </div>             
+                    </div>
+                         <hr class="thr">
+            <!-- </div> -->
+                </div>
+        </div>
+       <div class="row">
+            <div class="col-12 col-md-8 col-lg-8">
+                <div class="row msres">
+                          
+                    <div class="col-sm-5 col-md-5 no-pad himage">
+                           <p><img src="images/hallimage.jpg" alt="hall image"> </p>                        
+                           <div class="imgtag">
+                               <div class="imbg"></div>
+                               <p>4 Photos</p>
+                           </div>  
+                                                    
+                    </div>
+                    <div class="col-sm-7 col-md-7 no-pad hcontent">
+                            <h1 class="halltitle"><a href="#" title="">Abinand Grand, Habsiguda</a></h1>
+                            <p><span class="loc"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: </span> <span class="slocaddr">Plot No: 11, Shiva Ganga Colony, LB Nagar
+                                Opp Big Bazar</span><br/><span class="shmall"><i class="fa fa-users" aria-hidden="true"></i>                                   
+                                    Size: </span> <span class="shn">500</span></p>
+                                    <p class=""><button type="button" name="" id="cbtn" class="btn btn-warning"><i class="fa fa-bolt" aria-hidden="true"></i> Check Availability</button></p>
+                    </div>
+               
+                </div>
+                <div class="row msres">
+                          
+                        <div class="col-sm-5 col-md-5 no-pad himage">
+                               <p><img src="images/hallimage.jpg" alt="hall image"> </p>                        
+                               <div class="imgtag">
+                                   <div class="imbg"></div>
+                                   <p>4 Photos</p>
+                               </div>  
+                                                        
+                        </div>
+                        <div class="col-sm-7 col-md-7 no-pad hcontent">
+                                <h1 class="halltitle"><a href="#" title="">Abinand Grand, Habsiguda</a></h1>
+                                <p><span class="loc"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: </span> <span class="slocaddr">Plot No: 11, Shiva Ganga Colony, LB Nagar
+                                    Opp Big Bazar</span><br/><span class="shmall"><i class="fa fa-users" aria-hidden="true"></i>                                   
+                                        Size: </span> <span class="shn">500</span></p>
+                                        <p class=""><button type="button" name="" id="cbtn" class="btn btn-warning"><i class="fa fa-bolt" aria-hidden="true"></i> Check Availability</button></p>
+                        </div>
+                   
+                    </div>
+                    <div class="row msres">
+                          
+                            <div class="col-sm-5 col-md-5 no-pad himage">
+                                   <p><img src="images/hallimage.jpg" alt="hall image"> </p>                        
+                                   <div class="imgtag">
+                                       <div class="imbg"></div>
+                                       <p>4 Photos</p>
+                                   </div>  
+                                                            
+                            </div>
+                            <div class="col-sm-7 col-md-7 no-pad hcontent">
+                                    <h1 class="halltitle"><a href="#" title="">Abinand Grand, Habsiguda</a></h1>
+                                    <p><span class="loc"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: </span> <span class="slocaddr">Plot No: 11, Shiva Ganga Colony, LB Nagar
+                                        Opp Big Bazar</span><br/><span class="shmall"><i class="fa fa-users" aria-hidden="true"></i>                                   
+                                            Size: </span> <span class="shn">500</span></p>
+                                            <p class=""><button type="button" name="" id="cbtn" class="btn btn-warning"><i class="fa fa-bolt" aria-hidden="true"></i> Check Availability</button></p>
+                            </div>
+                       
+                        </div>
+                        <div class="row msres">
+                          
+                                <div class="col-sm-5 col-md-5 no-pad himage">
+                                       <p><img src="images/hallimage.jpg" alt="hall image"> </p>                        
+                                       <div class="imgtag">
+                                           <div class="imbg"></div>
+                                           <p>4 Photos</p>
+                                       </div>  
+                                                                
+                                </div>
+                                <div class="col-sm-7 col-md-7 no-pad hcontent">
+                                        <h1 class="halltitle"><a href="#" title="">Abinand Grand, Habsiguda</a></h1>
+                                        <p><span class="loc"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: </span> <span class="slocaddr">Plot No: 11, Shiva Ganga Colony, LB Nagar
+                                            Opp Big Bazar</span><br/><span class="shmall"><i class="fa fa-users" aria-hidden="true"></i>                                   
+                                                Size: </span> <span class="shn">500</span></p>
+                                                <p class=""><button type="button" name="" id="cbtn" class="btn btn-warning"><i class="fa fa-bolt" aria-hidden="true"></i> Check Availability</button></p>
+                                </div>
+                           
+                            </div>
+                        <div class="row msres">
+                          
+                    <div class="col-sm-5 col-md-5 no-pad himage">
+                           <p><img src="images/hallimage.jpg" alt="hall image"> </p>                        
+                           <div class="imgtag">
+                               <div class="imbg"></div>
+                               <p>4 Photos</p>
+                           </div>  
+                                                    
+                    </div>
+                    <div class="col-sm-7 col-md-7 no-pad hcontent">
+                            <h1 class="halltitle"><a href="#" title="">Abinand Grand, Habsiguda</a></h1>
+                            <p><span class="loc"><i class="fa fa-map-marker" aria-hidden="true"></i> Location: </span> <span class="slocaddr">Plot No: 11, Shiva Ganga Colony, LB Nagar
+                                Opp Big Bazar</span><br/><span class="shmall"><i class="fa fa-users" aria-hidden="true"></i>                                   
+                                    Size: </span> <span class="shn">500</span></p>
+                                    <p class=""><button type="button" name="" id="cbtn" class="btn btn-warning"><i class="fa fa-bolt" aria-hidden="true"></i> Check Availability</button></p>
+                    </div>
+               
+                </div>
+
+                         
+            </div>          
+                <!-- <div class="sresults">
+                   This is result content
+                </div>
+                <div class="sresults">
+                    This is result content
+                </div> -->
+                <!-- <div class="sresults">
+                        <div class="himage">
+                               <img src="images/hallimage.jpg" alt="hall image"> 
+                        </div>
+                        <div class="content">
+                                dddThis is result content
+                        </div>
+                    </div> -->            
+            <div class="col-12 col-md-4 col-lg-4">
+                <div id="sresults">
+                   <p>Ad Banner</p>
+                </div>
+            </div> 
+        </div>                
+       
+    </div>
+    
+    <footer id="foot">
+        <div class="container">            
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <p class="footer-copyright text-center"><span>©&nbsp;</span><span>2018 </span><span>Company. All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!--  JQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<source>
+</body>
+</html>

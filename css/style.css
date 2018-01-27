@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Roboto:300,400,500,700|Zilla+Slab:400,500,600,700');
+html,body{   
+    font-family: 'Roboto', sans-serif;
+    height: 100%;      
+    width:100%;    
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    color: #555;
+}
+article,section{
+    color: #8d8d8d;
+}
+article{
+    font-size: 0.875rem;
+}
+*:focus {
+    outline: none;
+}
+#mainNav{
+    margin-top: 15px;    
+}
+#logo, .primarymenu li a{
+    color: #e9d901 !important;
+    font-size: .875rem;
+    font-family: "poppins,",Helvatica,poppins, sans-serif;
+}
+ul.navbar-nav.ml-auto.primarymenu{
+    font-family: "poppins,",Helvatica,poppins, sans-serif;
+    /*font-size: .875rem;
+     font-weight: 400; */
+    text-transform: capitalize;    
+    text-shadow: none;
+    background: none;    
+}
+ul.navbar-nav.ml-auto.secondarymenu {
+    font-family: "poppins,",Helvatica,poppins, sans-serif;
+    /*font-size: .875rem;
+     font-weight: 500; */
+    text-transform: capitalize;    
+    text-shadow: none;
+    background: none;
+    color: #000;
+}
+.secondarymenu li a{
+    font-size: .875rem;
+}
+#bgimage{
+    margin-bottom: 50px;
+    background: url('../images/bg.jpg')no-repeat center center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        height: 100%;    
+/*    background: #f6f6f6;*/
+}
+header.masthead .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+        background-color: rgba(245, 161, 90, 0.25);
+/*    opacity: .5;*/
+    
+}
+.site-heading{
+    padding-top:280px;
+    padding-bottom: 50px;
+    margin: 0 177px;
+
+}
+.site-heading h1{
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
+    background: rgba(0,0,0,0.4);
+    border-radius: 6px;
+    padding: 5px 0px 10px;
+}
+#st{
+    font-size: 40px;
+    color: #FFF;
+}
+.searchblock{
+    width: 100%;
+       /* background: #fff; */
+       /* background: rgba(255, 255, 255, 0.3); */
+       padding: 5px 0px;
+       /* opacity: 0.3; */
+       border-radius: 8px;
+   }
+   #searchform{
+             width: 100%;
+       position: relative;
+       left: 84px;
+      /* background: rgba(255, 255, 255, 0.3);
+       padding: 5px 0px;
+        opacity: 0.3; 
+       border-radius: 8px; */
+   }
+   .stages select{
+          width: 120% !important;
+       /* color: #fff; */
+       /* display: block; */
+       border: 1px solid #d6d6d6;
+       border-radius: 0px !important;
+       height: 35px !important;
+       font-size: 14px;
+       color: #b2b2b2;
+       outline: 0;
+   }
+   select:focus{
+       border:1px solid #D2D2D2 !important;
+       outline: none !important;
+       box-shadow: none;
+   }
+   .sbtn{
+      width: 180px;
+       border-radius: 0px 3px 3px 0px;
+       height: 34px;
+   }
+   #state{
+       
+   }
+   .stages select option{
+       color: #777;
+   }
+   .form-control:focus {
+       border-color: #66afe9;
+       outline: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;    
+   /*
+       -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+   */
+   }
+   #ts{
+       width: 85.5%;
+       height: 46px;
+       background: rgba(255,255,255,0.5);
+       position: absolute;
+       border-radius: 5px;
+   }
+   /* Footer Section Css */
+   #foot{
+           background: #d2d2d2;
+       margin-top: 50px;
+   }
+   .footer-copyright {
+       margin-bottom: 5px;
+       padding-top: 6px;
+   }
+   .footer-copyright span {
+       font-size: 0.8125rem;
+   }
+   
+   /* Search Page */
+   #innerNav{
+       box-shadow: 0px 1px 3px rgba(58, 58, 58, 0.5);
+       background: #f9f9f9;
+   }
+   .secondarymenu li a{
+       color: #d2d2d2;
+   }
+   #headbg{    
+       width: 100%;    
+       background: url('../images/indian-wedding.jpg');
+       background-repeat: no-repeat;
+       background-origin: content-box;
+       /* background-position: center center; */
+       background-position: 50% 12%;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;    
+       height: 170px;
+   }
+   #headbg .overlay{
+       background: rgba(0,0,0,0.5);
+   }
+   .inner_searchblock {
+       margin-top: 95px;
+   }
+   #head_searchform{
+       position: relative;
+       left: 84px;
+   }
+   #head_searchform #ts{
+       width: 85.5%;
+       height: 46px;
+       background: rgba(0,0,0,0.3);
+       position: absolute;
+       border-radius: 5px;
+   }
+   #head_searchform .sbtn{    
+       height: 35px;
+   }
+   .breadcrumbs{
+    background: #efefef;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   .breadcrumbs span{
+       font-size: 0.75rem;
+       font-weight: 500
+   }
+   .filters{
+    margin-top: 10px;
+   }
+   .thr{
+        margin-top: 0.125rem;
+   }
+.sreshead{
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 500;
+    font-family: poppins;
+}
+.filt select {
+    margin-left: 10px;
+    font-size: 13px;
+    background: #f1f1f1;    
+}
+.filt select option {
+    margin: 40px;    
+    color: #4a4a4a;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.filt label{
+    font-size: 13px;
+}
+.lsize{
+    margin-left: 5px;  
+}
+.msres{
+    
+}
+.himage{
+    /* float: left;
+    width: 300px;
+    height: 100px; */
+    padding-left: 0;
+}
+.himage p{
+    margin-bottom: 0;
+}
+.himage img{
+    /* float: left; */
+    width: 300px;
+    height: 200px;
+}
+.hcontent{
+    padding-left: 0px;
+}
+.content{
+    /* float: right; */
+}
+.msres{
+    margin-bottom: 20px;
+    border: 1px solid rgba(177,177,177,0.3);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(177,177,177,0.6);
+}
+.halltitle{
+    font-size: 1.4rem;
+    color: #066fdc;
+    padding-top: 10px;
+}
+.loc, .shmall{
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #007bff;
+}
+.slocaddr, .shn{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #000;
+}
+.cbtn{
+
+}
+#cbtn{
+    width: 60%;
+    color:#000;
+}
+#cbtn:hover{    
+    background: #ffb307!important;
+    border-color: #f3c762!important;    
+}
+#cbtn:focus{
+    box-shadow: none !important;
+    color: rgb(0, 0, 0) !important;
+    border: none!important; 
+}
+#cbtn:active{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color:#fff !important;
+    background: #ffb307!important;
+}
+.imgtag{
+    /* border: 1px solid #000;
+    width: 56px;
+    height: 50px;
+    background: rgba(0,0,0,0.2); */
+    position: absolute;
+    right: 24px;
+    bottom: inherit;
+    width: 56px;
+    background-color: black;
+    padding-right: 4px;
+    opacity: 0.7;
+    border-radius: 4px;
+    padding-top: 5px;
+    top: 134px;
+}
+.imbg{
+    width: 50px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0.5) url("../images/sprite.png");
+    background-position: -909px -234px;
+    float: right;
+    margin-bottom: 3px;
+    cursor: pointer;
+    /* background: url("../images/sprite.png") no-repeat; */
+}
+.imgtag p{
+    font-size: .6875rem;
+    color: #fff;
+    text-align: center;
+}
+#sresults{
+    text-align: center;
+    width: 100%;
+}
+#sresults p {
+    border: 1px solid #e4e4e4;
+    width: 300px;
+    height: 250px;
+    padding: 100px;
+    border-radius: 10px;
+    background: #e4e4e4;
+    margin: 0 auto;
+}
+.mbar{
+    color: #ffffff;
+    text-shadow: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 20q  px;
+}
+.mbar:hover{
+    cursor: pointer;
+}
+.container.pagec {
+    margin-top: 55px;
+}
+
+/* Inner Page Styles */
+.carousel-inner{
+    width:100%;
+    max-height: 400px !important;
+  }
+  div.cm_box {
+    margin-top: 30px;
+    border: 1px solid rgb(232, 232, 232);
+    padding: 10px;
+    box-shadow: 0px 1px 1px rgba(210,210,210,0.5);
+}
+#lo row{
+
+}
+#lo h4 + hr{
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+}
+.box{
+    margin-top: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 10px;
+    box-shadow: 0px 1px 4px rgb(237, 237, 237);
+}
+.box h6{
+    font-size:0.9375rem;
+    
+}
+.box hr{
+    margin-top:0px;
+    margin-bottom: 3px;
+}
+.vdet{
+    display: inline-block;
+}
+.iconSprite3.veg{
+    background: url(http://d3uxyv2ripue8p.cloudfront.net/asset/images/icon-strip-new3.png) no-repeat 50%;
+    background-position: -19px -11px;
+    display: inline-block;
+    vertical-align: top;
+    width: 23px;
+    height: 23px;
+    
+}
+.iconSprite3.veg + p{
+    width: 200px;
+}
+.price{
+    font-size: 0.8125rem;
+}
+/* .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ } */
+
+/* Responsive Styles  */
+ @media screen and (max-width: 575px) and (min-width: 320px) {
+     #logo{
+         color: #FFF !important;
+     }
+    .site-heading {
+        padding-top: 150px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    .site-heading h1 {
+        font-size: 20px;        
+        padding: 4px 0px 5px;
+    }
+    #ts {
+        width: 100%;
+        height: 210px;
+        background: rgba(255,255,255,0.5);
+        position: absolute;
+        border-radius: 5px;
+    }
+    #st {
+        font-size: 40px;
+        color: #FFF;
+    }
+    #searchform {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .stages select {
+        width: 100% !important;
+        /* color: #fff; */
+        /* display: block; */
+        border: 1px solid #868686;
+        border-radius: 0px !important;
+        height: 35px !important;
+        font-size: 13px;
+        color: #868686;
+        outline: 0;
+        margin-bottom: 2px;
+    }
+    .sbtn {
+        width: 100%;
+        border-radius: 3px;
+        height: 34px;
+    }
+    #mainNav, #innerNav {
+        margin-top: 0px;
+    background-color: #007bff !important;
+        /* box-shadow: 0px 1px 3px #464a4e; */
+        box-shadow: none;
+    }
+    .primarymenu li a, .secondarymenu li a{
+        color: #fff !important;
+        font-size: 13px;
+        text-shadow: none;
+        box-shadow: none;
+        border: none;
+        outline: none;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(255,255,255,0);
+    }
+    .navbar-light .navbar-toggler:active, .navbar-light .navbar-toggler:focus {
+        color: none;
+        border-color: none;
+        outline: none;
+    }   
+    #headbg {
+        width: 100%;
+        background: url(../images/indian-wedding.jpg);
+        background-repeat: no-repeat;
+        /* background-origin: content-box; */
+        background-position: center center;
+        /* background-position: 50% 12%; */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 55%;        
+    }
+    #head_searchform {
+        position: relative;
+    left: 0;
+    padding: 10px;
+    }
+    .inner_searchblock {
+        margin-top: 59px;
+    }
+    #head_searchform #ts {
+        width: 93%;
+        height: 100%;
+        background: rgba(0,0,0,0.3);
+        position: absolute;
+        border-radius: 0px;
+        /* padding: 10px; */
+    }
+    .msres {
+        margin-bottom: 10px;
+        border: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        box-shadow: 0px 1px 2px rgba(177,177,177,0.6);
+    }
+    .himage img {
+        /* float: left; */
+        width: 100%;
+        height: 200px;
+    }
+    .himage {
+        padding-left: 15px;
+    }
+    .hcontent {
+        padding-left: 15px;
+    }
+    #sresults p {
+        width: 100%;
+        height: 250px;       
+        border-radius: 5px;        
+    }
+ }
